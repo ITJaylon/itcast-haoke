@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/itcast-haoke-manage.iml" filepath="$PROJECT_DIR$/itcast-haoke-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-api-server/itcast-haoke-manage-api-server.iml" filepath="$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-api-server/itcast-haoke-manage-api-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server.iml" filepath="$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-generator/itcast-haoke-manage-dubbo-server-generator.iml" filepath="$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-generator/itcast-haoke-manage-dubbo-server-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources.iml" filepath="$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface.iml" filepath="$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service.iml" filepath="$PROJECT_DIR$/../itcast-haoke-manage/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service.iml" />
+    </modules>
+  </component>
+</project>
