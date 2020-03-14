@@ -1,6 +1,7 @@
 package cn.itcast.haoke.dubbo.api.controller;
 
 import cn.itcast.haoke.dubbo.api.service.HouseResourcesService;
+import cn.itcast.haoke.dubbo.api.vo.TableResult;
 import cn.itcast.haoke.dubbo.server.pojo.HouseResources;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -39,10 +40,29 @@ public class HouseResourcesController {
     }
 
 
+    /**
+     * 查询房源列表
+     *
+     * @param houseResources
+     * @param currentPage
+     * @param pageSize
+     * @return
+     */
     @GetMapping
     @ResponseBody
-    public ResponseEntity<String> get(){
-        return ResponseEntity.ok("ok");
+    public ResponseEntity<TableResult> list(HouseResources houseResources,
+                                            @RequestParam(name = "currentPage",
+                                                    defaultValue = "1") Integer currentPage,
+                                            @RequestParam(name = "pageSize",
+                                                    defaultValue = "10") Integer pageSize) {
+        return ResponseEntity.ok(this.houseResourcesService.queryList(houseResources, currentPage,
+                        pageSize));
     }
+
+//    @GetMapping
+//    @ResponseBody
+//    public ResponseEntity<String> get(){
+//        return ResponseEntity.ok("ok");
+//    }
 
 }

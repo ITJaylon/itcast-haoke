@@ -2,6 +2,7 @@ package cn.itcast.haoke.dubbo.server.api;
 
 import cn.itcast.haoke.dubbo.server.pojo.HouseResources;
 import cn.itcast.haoke.dubbo.server.service.HouseResourcesService;
+import cn.itcast.haoke.dubbo.server.vo.PageInfo;
 import com.alibaba.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -14,5 +15,10 @@ public class ApiHouseResourcesServiceImpl implements ApiHouseResourcesService {
     @Override
     public int saveHouseResources(HouseResources houseResources) {
         return houseResourcesService.saveHouseResources(houseResources);
+    }
+
+    @Override
+    public PageInfo<HouseResources> queryHouseResourcesList(int page, int pageSize, HouseResources queryCondition) {
+        return this.houseResourcesService.queryHouseResourcesList(page, pageSize, queryCondition);
     }
 }
